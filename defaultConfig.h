@@ -1,10 +1,10 @@
 #pragma once
 
 bool DEVICENAME_AUTO = true;
-char DEVICENAME[32] = "Smogly1"; // Bez polskich znakow!! // Without Polish letters!!
+char DEVICENAME[32] = "nicram"; // Bez polskich znakow!! // Without Polish letters!!
 bool DISPLAY_PM1 = false;
-char LANGUAGE[32] = "english"; // english or polish
-int SELECTED_LANGUAGE = 1; // en - 1; pl - 2
+char LANGUAGE[32] = "polish"; // english or polish
+int SELECTED_LANGUAGE = 2; // en - 1; pl - 2
 
 char THP_MODEL[32] = "Non";
 char DUST_MODEL[32] = "Non";
@@ -48,9 +48,9 @@ bool SMOGLIST_ON = true;
 
 bool AIRMONITOR_ON = false;
 bool AIRMONITOR_GRAPH_ON = true;
-char LATITUDE[16] = "50.263911";
-char LONGITUDE[16] = "18.995711";
-int MYALTITUDE = 271;
+char LATITUDE[16] = "52.2428829";
+char LONGITUDE[16] = "20.2570793";
+int MYALTITUDE = 110;
 
 bool THINGSPEAK_ON = false;
 bool THINGSPEAK_GRAPH_ON = false;
